@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="135dp"
+        android:layout_height="105dp"
+        android:layout_x="26dp"
+        android:layout_y="118dp"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="123dp"
+        android:text="DY Patil college of engineering and Technology, Kolhapur"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="367dp"
+        android:text="Welcome" />
+</AbsoluteLayout>

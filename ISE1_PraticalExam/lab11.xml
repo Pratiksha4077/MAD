@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="135dp"
+                android:layout_height="105dp"
+                android:layout_x="26dp"
+                android:layout_y="118dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_x="174dp"
+                android:layout_y="123dp"
+                android:text="DY Patil college of Engineering and Technology, Kolhapur"
+                android:textSize="20dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:src="@drawable/lab11" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Description:-"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="233dp"
+        android:layout_marginLeft="10dp"
+        android:layout_x="38dp"
+        android:layout_y="376dp"
+        android:justificationMode="inter_word"
+        android:text="The Mobile Application Development lab is used to perform practical's of Mobile Application development, Data Structures, Java Programming, Information Security and Domain specific mini project. The software's that are installed includes Ubuntu and Window OS, Android studio, Atom editor, Brackets editor, GCC, and Open JDK packages."
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="644dp"
+        android:layout_marginLeft="10dp"
+        android:text="Back" />
+
+
+</LinearLayout>
