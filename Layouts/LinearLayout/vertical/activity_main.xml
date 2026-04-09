@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop" />
+
+    <!-- Full Name -->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Pratiksha Shivaji Patil"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp" />
+
+    <!-- Mobile -->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile: 9172474077"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: pratiksha@gmail.com"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Gender -->
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender: Female"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Date of Birth -->
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth: 19/11/2004"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Address -->
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address: Kolhapur, Maharashtra"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Qualification -->
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qualification: Btech(CSE)"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Skills -->
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skills: Java, Android, MySQL"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Edit Profile Button -->
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Call Button -->
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Login"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

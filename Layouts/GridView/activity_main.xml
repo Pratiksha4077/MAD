@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F5F5F5">
+
+    <!-- Display Screen -->
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFFFFF"
+        android:gravity="end|center_vertical"
+        android:textSize="28sp"
+        android:padding="10dp"
+        android:hint="0"/>
+
+    <!-- Buttons Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_marginTop="10dp">
+
+        <!-- Row 1 -->
+        <Button android:text="7"/>
+        <Button android:text="8"/>
+        <Button android:text="9"/>
+        <Button android:text="/"/>
+
+        <!-- Row 2 -->
+        <Button android:text="4"/>
+        <Button android:text="5"/>
+        <Button android:text="6"/>
+        <Button android:text="*"/>
+
+        <!-- Row 3 -->
+        <Button android:text="1"/>
+        <Button android:text="2"/>
+        <Button android:text="3"/>
+        <Button android:text="-"/>
+
+        <!-- Row 4 -->
+        <Button android:text="0"/>
+        <Button android:text="."/>
+        <Button android:text="="/>
+        <Button android:text="+"/>
+
+        <!-- Row 5 -->
+        <Button
+            android:text="C"
+            android:layout_columnSpan="4"
+            android:layout_width="match_parent"/>
+
+    </GridLayout>
+
+</LinearLayout>
