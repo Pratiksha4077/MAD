@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF0F5">
+
+    <!-- HEADER -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#4A4A4A"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="#FFD700" />
+
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Service"
+            android:textColor="#FFD700"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- MAIN CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- BIG SERVICE CARD -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/serviceImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/w_facial" />
+
+                    <!-- Overlay Gradient -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#66000000"/>
+
+                    <!-- Service Name -->
+                    <TextView
+                        android:id="@+id/serviceName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|start"
+                        android:layout_margin="16dp"
+                        android:text="Service Name"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- DESCRIPTION -->
+            <TextView
+                android:id="@+id/serviceDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience premium salon service with expert professionals. Relax and enjoy the luxury care."
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:layout_marginTop="15dp"/>
+
+            <!-- BUTTON -->
+            <Button
+                android:id="@+id/btnProceedBooking"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Book Appointment"
+                android:textAllCaps="false"
+                android:backgroundTint="#FFD700"
+                android:textColor="#000"
+                android:layout_marginTop="25dp"
+                app:cornerRadius="12dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

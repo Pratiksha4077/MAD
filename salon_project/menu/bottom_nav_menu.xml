@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_women"
+        android:title="Women"
+        android:icon="@drawable/ic_women_service"/>
+
+    <item
+        android:id="@+id/nav_men"
+        android:title="Men"
+        android:icon="@drawable/ic_men_service"/>
+    <item
+        android:id="@+id/nav_products"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Products" />
+
+</menu>
